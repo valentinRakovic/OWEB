@@ -18,6 +18,7 @@ def main():
             summary_data[column] = None
 
     save_to_csv(summary_data, 'resultados_buses_ordenados_comas.csv', BUS_ORDER)
+    
 
 
 if __name__ == "__main__":
